@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#254377">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>JobHaven</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="dist/css/bootstrap-material-design.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="../dist/css/stylesheet.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+
+<body>
+
+    <section>
+        <!-- Simple header with fixed tabs. -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+                    mdl-layout--fixed-tabs">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">JobHaven</span>
+                    <div class="mdl-layout-spacer"></div>
+
+                    <!-- Right aligned menu below button -->
+                    <!-- <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button> -->
+                </div>
+
+                <!-- Tabs -->
+                <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                    <a href="#fixed-tab-1" class="mdl-layout__tab mdl-js-ripple-effect is-active">JOB LISTING</a>
+                    <a href="#fixed-tab-2" class="mdl-layout__tab mdl-js-ripple-effect">SAVED JOBS</a>
+                    <a href="#fixed-tab-3" class="mdl-layout__tab mdl-js-ripple-effect">APPLIED JOBS</a>
+                </div>
+            </header>
+            <!-- Side drawer -->
+            <div class="mdl-layout__drawer">
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-phone">
+                    <img class="drawer-avatar" src="../dist/img/mandisa.jpg" alt=""> <br>
+                    <span class="drawer-name">Mandisa Doe</span> <br>
+                    <span></span>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-phone">
+                    <ul class="demo-list-icon mdl-list">
+                        <li class="drawer-list mdl-list__item drawer-list">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">home</i>
+                                <a class="drawer-link" href="home.html">Home</a>
+                            </span>
+                        </li>
+                        <li class="mdl-list__item drawer-list">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">person</i>
+                                <a class="drawer-link" href="account.html">Account</a>
+                            </span>
+                        </li>
+                        <li class="mdl-list__item drawer-list">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">notifications</i>
+                                <a class="drawer-link" href="notification.html">Notification</a>
+                            </span>
+                        </li>
+                        <li class="mdl-list__item drawer-list">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">settings</i>
+                                <a class="drawer-link" href="settings.html">Settings</a>
+                            </span>
+                        </li>
+                        <li class="mdl-list__item drawer-list">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">help</i>
+                                <a class="drawer-link" href="#">Help</a>
+                            </span>
+                        </li>
+                        <li class="mdl-list__item drawer-list">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="material-icons mdl-list__item-icon">exit_to_app</i>
+                                <a class="drawer-link" href="login.html">Logout</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <main class="mdl-layout__content">
+                <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+                    <div class="page-content">
+                        <!--<form action="#">-->
+                            <!--<div class="container-m5">-->
+                                <!--<div class="row">-->
+                                    <!--<div class="col-xs-10">-->
+                                        <!--&lt;!&ndash; Simple Textfield &ndash;&gt;-->
+                                        <!--<form action="#">-->
+                                            <!--<div class="mdl-textfield mdl-js-textfield">-->
+                                                <!--<input class="mdl-textfield__input" type="text" id="sample1">-->
+                                                <!--<label class="mdl-textfield__label" for="sample1">-->
+                                                    <!--Search-->
+                                                <!--</label>-->
+                                            <!--</div>-->
+                                        <!--</form>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-xs-2">-->
+                                        <!--&lt;!&ndash; Raised button with ripple &ndash;&gt;-->
+                                        <!--<button class="mdl-button mdl-js-button mdl-js-ripple-effect collapsible-heade filter-btn">-->
+                                            <!--<i class="material-icons">filter_list</i>-->
+                                        <!--</button>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</form>-->
+                        <!--<ul class="collapsible" data-collapsible="accordion">-->
+                            <!--<li>-->
+                                <!--&lt;!&ndash;<div class="collapsible-header">&ndash;&gt;-->
+                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                                <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+
+                        <div class="demo-list-action mdl-list">
+                            <div class="mdl-list__item job-list" onclick="viewJob()">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div id="job1" class="mdl-cell mdl-cell--10-col">
+                                        <span id="job-position" class="job-position">job position</span> <br>
+                                        <span id="company-name" class="company-name">company name</span> <span>-</span>
+                                        <span id="job-location" class="job-location">job location</span> <br>
+                                        <span id="salary" class="salary">salary</span> <br>
+                                        <span id="duration" class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+                    <div class="page-content">
+                        <div class="demo-list-action mdl-list">
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+                    <div class="page-content">
+                        <div class="demo-list-action mdl-list">
+                            <span class="small-title">today</span>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--<div class="fixed-action-btn toolbar">-->
+                    <!--<a class="btn-floating btn-large red">-->
+                        <!--<i class="large material-icons">mode_edit</i>-->
+                    <!--</a>-->
+                    <!--<ul>-->
+                        <!--<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>-->
+                        <!--<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>-->
+                        <!--<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>-->
+                        <!--<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                <div class="fixed-action-btn horizontal">
+                    <a class="btn-floating btn-large">
+                        <i class="large material-icons">search</i>
+                    </a>
+                </div>
+            </main>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../dist/js/script.js"></script>
+    <script src="../dist/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="dist/js/bootstrap-material-design.min.js"></script> -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready( function(){
+
+            // if($(window).width() > 400){
+
+            //     window.location = "clogin.html"
+            // }
+            // $('.collapsible').collapsible();
+            // $('.filter-btn').click( function () {
+            //     $(this).addClass("collapsible");
+            // });
+            $(".job-list").click(function(){
+                // window.location.href="jobDetails.html";
+                $(this).addClass("mdl-js-ripple-effect");
+            });
+
+            $(".mdl-list__item-secondary-action").click(function(){
+
+                $(".mdl-list__item-secondary-action .material-icons").css("color: #254377; z-index: 3;");
+            });
+
+
+            // 1. Get the Json String from localstorage using localstorage.getItem
+             var jobJSON = localStorage.getItem("job");
+
+            // 2. Convert the JSON String into a JS Object
+             var job = JSON.parse(jobJSON);
+
+             if(job == null){
+                 $('#job-position').text(job.jobPosition);
+                 $('#company-name').text(job.companyName);
+                 $('#job-location').text(job.jobLocation);
+                 $('#salary').text(job.salary);
+                 $('#duration').text(job.duration);
+             }else{
+                 console.log("Cannot find object");
+             }
+           
+         
+
+
+
+           
+        });
+    </script>
+</body>
+
+</html>

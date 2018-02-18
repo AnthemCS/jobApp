@@ -1,0 +1,543 @@
+body{
+    font-family: 'Roboto';
+}
+
+
+@media only screen and (max-width: 900px){
+
+}
+.container-m5{
+    width: 90%;
+    margin: 0 5%;
+}
+.filter-btn{
+    margin-top: 20px;
+}
+.mdl-js-search{
+    width: 96% !important;
+    margin: 0 2%;
+}
+.btn-floating{
+    background-color: #254377 !important;
+}
+.text-center{
+    text-align: center;
+}
+.mdl-layout__header{
+    background-color: #254377;
+}
+.mdl-layout__content{
+    display: block;
+}
+.mdl-layout__header-row{
+    background-color: #254477;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+    background-color: transparent;
+}
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
+    background-color: #ffc92a;
+}
+.mdl-layout__tab {
+    background-color: #254477;
+    text-decoration: none;
+}
+.mdl-layout__tab:hover{
+    text-decoration: none;
+    color: #fff;
+}
+#demo-menu-lower-right{
+    float: right
+}
+.mdl-textfield__input{
+    font-size: 18px;
+    color: #254377;
+}
+.mdl-list__item{
+    /*border: .5px solid #f3f3f3;*/
+    margin: 0px 5px 5px 5px;
+     border-bottom: 1px solid #ccc;
+    /*box-shadow: 0 2px 2px 0 #c8c8c8,*/
+    /*0 6px 5px 0 #c8c8c8;*/
+}
+.img-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+.job-position {
+    color: #254377;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.company-name {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+}
+.job-location,
+.university-location{
+    color: #b1b1b1;
+    font-size: 14px;
+    font-weight: 500;
+}
+.salary {
+    color: #ffc92a;
+    font-size: 14px;
+    font-weight: 500;
+}
+.duration {
+    color: #d3d3d3;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-bottom{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color: #254377;
+}
+.mdl-list__item-secondary-action .material-icons{
+    color: #ffc92a;
+}
+
+/* Side bar stylesheet */
+.mdl-layout__drawer{
+    background-image: url("background-drawer.png");
+}
+.drawer-avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.drawer-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #254377;
+    margin-left: 20px;
+}
+.drawer-link{
+    color: #254377;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.drawer-link:hover{
+    text-decoration: none;
+}
+.drawer-list{
+    border: 0px solid transparent;
+    text-decoration: none;
+    box-shadow: 0 1px 1px 0 #fff;
+}
+.mdl-list__item-icon,
+.mdl-list__item-icon.material-icons{
+    color: #254377;
+}
+.mdl-account-icon{
+    font-size: 20px !important;
+    padding-top: 10px;
+}
+
+/* Onboarding stylesheet */
+.carousel-control-next-icon{
+    background-image: url("right-arrow.png");
+}
+.carousel-control-prev-icon{
+    background-image: url("left-arrow.png");
+}
+.carousel-indicators li {
+    background-color: #254377;
+}
+.carousel-indicators .active{
+    background-color: #ffc92a;
+}
+
+/* Login stylesheet */
+.center{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.login-title {
+    font-size: 20px;
+    text-align: center;
+    color: #ccc;
+    text-transform: uppercase;
+}
+.mdl-textfield{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+.signup-btn{
+    background-color: #254377;
+    color: #fff;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 28%;
+    font-size: 19px;
+}
+.login-btn{
+    background-color: #ffc92a;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.register-btn{
+    color: #ccc;
+    width: 90%;
+}
+/* Sign Up stylesheet */
+.signup-title{
+    font-size: 30px;
+    text-align: left;
+    color: #254377;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* padding-top: 20px; */
+}
+.signup-avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.secondary-btn{
+    background-color: #254377;
+    color: #fff;
+}
+/* company sign up stylesheet */
+.c-signup-btn {
+    background-color: #ffc92a;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+/* job details stylesheet */
+.mdl-layout-title-bar{
+    display: block;
+    position: relative;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 0 0 10px;
+    text-transform: capitalize;
+}
+.mdl-layout__header-bar{
+    background-color: #254377;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    align-self: stretch;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px 0 20px;
+}
+@media screen and (max-width: 1024px){
+    .mdl-layout__header-bar {
+        height: 56px;
+        padding: 0 16px 0px 20px;
+    }
+}
+.page-container{
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 50px;
+}
+/*.card{*/
+    /*border: 1.5px solid #f3f3f3;*/
+    /*border-radius: 5px;*/
+    /*padding: 10px;*/
+    /*box-shadow: 0 2px 2px 0 #ccc,*/
+    /*0 2px 2px 0 #ccc;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+.mdl-chip{
+    background-color: #ffc92a;
+    color: #2d2d22;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.mdl-chip__text{
+    font-size: 17px;
+    font-weight: 400;
+    color: #254377;
+}
+.detail-job-title{
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    padding-top: 10px;
+    color: #254377;
+    text-transform: capitalize;
+}
+.detail-job-location {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ccc;
+    margin: 0;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.detail-icon {
+    font-size: 16px;
+    color: #ffc92a;
+    /*padding-top: 20px;*/
+}
+.contact-icon{
+    font-size: 18px;
+    color: #254377;
+}
+.description-title,
+.duration-title,
+.skill-title,
+.qualification-title,
+.contact-title{
+    font-size: 17px;
+    font-weight: 400;
+    color: #c8c8c8;
+    margin: 0;
+    text-transform: capitalize;
+}
+.job-description,
+.duration-range
+{
+    font-size: 18px;
+    color: #2d2d2d;
+    font-weight: 400;
+}
+.detail-text{
+    margin-top: -5px;
+    line-height: 0px;
+}
+/* .duration{
+    font-size: 15px;
+    color: #c8c8c8;
+    font-weight: 400;
+} */
+.skill-chip{
+    background-color: #ffc92a;
+    border-radius: 30px;
+    margin: 10px 5px 10px 0;
+}
+.qualification-chip{
+    background-color: #ffc92a;
+    border-radius: 35px;
+}
+.mdl-color--teal {
+    background-color: #254377 !important;
+}
+.btn-bottom-fixed{
+    font-size: 20px;
+    text-transform: capitalize;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #254377;
+    border-radius: 0;
+}
+.detail-job-contact{
+    font-size: 18px;
+    color: #2d2d2d;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+/* Account stylesheet */
+.profile-header{
+    background-color: #254377;
+    padding: 10px;
+    border: none;
+}
+.no-shadow-bar{
+    box-shadow: none;
+}
+.img-profile{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.small-title{
+    font-size: 15px;
+    font-weight: 700;
+    color: #254377;
+    text-transform: capitalize;
+}
+.profile-name{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+.profile-location{
+    font-size: 18px;
+    font-weight: 100;
+    color: #ffc92a;
+    text-transform: capitalize;
+    margin: 6px 0 0 0;
+    padding: 0;
+}
+.primary-bar{
+    background-color: #254377;
+    border: none;
+    width: 100%;
+}
+/* .mdl-layout__tab-bar{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.mdl-layout__tab{
+    width: 33.33%;
+} */
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
+    color: #fff;
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after{
+    background-color: #ffc92a;
+}
+.mdl-tabs__tab{
+    color: #fff;
+    width: 50%;
+}
+.mdl-tabs__tab-bar{
+    background-color: #254377;
+    border-bottom: none;
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+    z-index: 1;
+}
+.mdl-tabs__tab-bar-fixed{
+    background-color: #254377;
+    border-bottom: none;
+}
+.account-container{
+    padding-top: 10px;
+}
+/*.mdl-tabs__tab-bar > .mdl-tabs__tab{*/
+
+/*}*/
+.account-label-title{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ccc;
+    text-transform: capitalize;
+}
+.account-label-text,
+.account-description{
+    font-size: 17px;
+    font-weight: 400;
+    color: 	#414a4c;
+    text-transform: capitalize;
+}
+.job-title,
+.experience-company-name,
+.course-title,
+.university-name{
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffc92a;
+    text-transform: capitalize;
+}
+.experience-company-name,
+.university-name{
+    color: #2d2d2d !important;
+    font-weight: 400 !important;
+}
+.start-date,
+.end-date{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ccc;
+    text-transform: capitalize;
+}
+/*.account-paragraph{*/
+    /*font-size: 16px !important;*/
+/*}*/
+/* notification sytlesheet */
+.mdl-list__item-avatar,
+.mdl-list__item-avatar.material-icons{
+    height: auto;
+}
+.notification-date,
+.notification-time{
+    font-weight: 400;
+    color: #c8c8c8;
+}
+.mdl-snackbar__action{
+    color: #ffc92a;
+}
+.mdl-snackbar__action:focus{
+    color: #fff;
+    background-color: #ffc92a;
+}
+/*Edit Account Stylesheet*/
+@media only screen and (max-width: 900px){
+    .container{
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .container{
+        width: 60%;
+        margin: 0 20%;
+    }
+}
+.img-account{
+    border: 5px solid #ffc92a;
+}
+/* settings stylesheet */
+.setting-list{
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0; 
+}
+.mdl-switch.is-checked .mdl-switch__thumb{
+    background-color: #254377;
+}
+.setting-list > a{
+    color: #2d2d2d;
+    font-weight: 400;
+}
+/*Change Password Stylesheet*/
+.mt-20{
+    margin-top: 20px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.is-focused{
+    color: #254377;
+}
