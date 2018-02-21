@@ -1,8 +1,12 @@
 body{
     font-family: 'Roboto';
 }
-
-
+.primary-color{
+    color: #254377;
+}
+.mdl-checkbox__input{
+    background-color: #254377 !important
+}
 @media only screen and (max-width: 900px){
 
 }
@@ -540,4 +544,53 @@ body{
 }
 .is-focused{
     color: #254377;
+}
+/*Search Stylesheet*/
+.search-bar{
+    background-color: #ffffff !important;
+}
+.back-search-icon{
+    color: #254377 !important;
+}
+.search-textfield{
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    color: #2d2d2d;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+}
+.search-textfield:focus{
+    border: none;
+    outline: none;
+}
+.filter-dialog{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+.checkbox{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 2;
+}
+.search-label-title{
+    font-size: 17px;
+    font-weight: 500;
+    color: #2d2d2d;
+    text-transform: capitalize;
+}
+#filter-btn{
+    width: 100%;
+    color: #ffffff;
+    background-color: #ffc92a;
+}
+.mdl-slider.is-upgraded{
+    color: #254377 !important;
 }

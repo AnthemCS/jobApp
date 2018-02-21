@@ -116,10 +116,14 @@
                             </span>
                         </div>
                         <!-- Apply job button with ripple -->
-                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect btn-bottom-fixed">
+                        <button id="job-show-toast" class="mdl-button mdl-js-button mdl-js-ripple-effect btn-bottom-fixed">
                             Apply job
                         </button>
                     </div>
+                </div>
+                <div id="job-detail-toast" class="mdl-js-snackbar mdl-snackbar">
+                    <div class="mdl-snackbar__text"></div>
+                    <button class="mdl-snackbar__action" type="button"></button>
                 </div>
             </main>
         </div>
@@ -129,6 +133,27 @@
 
     <script src="../dist/js/jquery.min.js"></script>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            (function() {
+                'use strict';
+                window['counter'] = 0;
+                var snackbarContainer = document.querySelector('#job-detail-toast');
+                var showToastButton = document.querySelector('#job-show-toast');
+                showToastButton.addEventListener('click', function() {
+                    'use strict';
+                    var data = {
+                        message: 'Successfully applied',
+                        actionHandler: function(event) {},
+                        actionText: 'Undo',
+                        timeout: 10000
+                    };
+                    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+                });
+            }());
+        })
+    </script>
 </body>
 
 </html>

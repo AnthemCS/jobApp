@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+    <link rel="manifest" href="../manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/stylesheet.css">
+    <link rel="stylesheet" href="../dist/css/animate.css">
+</head>
+
+<body class="">
+<section>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-bar search-bar">
+                <div class="col-xs-1">
+                    <!-- back icon button -->
+                    <a href="home.html" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--icon">
+                        <i class="material-icons back-search-icon">arrow_back</i>
+                    </a>
+                </div>
+                <div class="col-xs-12">
+                    <!-- Simple Textfield -->
+                    <form action="#">
+                        <input class="search-textfield" type="search" placeholder="Search">
+                    </form>
+                </div>
+                <div class="col-xs-1">
+                    <!-- Icon button -->
+                    <button id="filter-search-btn" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons back-search-icon">filter_list</i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="">
+                    <div class="filter-dialog">
+                        <h4 class="primary-color">Search filter</h4>
+                        <form action="#">
+                            <span>
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                    <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                    <span class="search-label-title">Location</span>
+                                </label>
+
+                            </span>
+                            <span>
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                    <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                                    <span class="search-label-title">Job Title</span>
+                                </label>
+                            </span>
+                            <span>
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+                                    <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+                                    <span class="search-label-title">Company Name</span>
+                                </label>
+                            </span>
+                            <span>
+                                <span class="search-label-title">Salary Range</span>
+                                <input class="mdl-slider mdl-js-slider" type="range"
+                                       min="0" max="100" value="20" tabindex="0">
+                            </span>
+                            <!-- Raised button with ripple -->
+                            <button id="filter-btn" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                                Apply Filter
+                            </button>
+                        </form>
+                    </div>
+                    <section>
+                        <div class="demo-list-action mdl-list">
+                            <h5 class="primary-color">Results found.....</h5>
+                            <div class="mdl-list__item job-list" onclick="viewJob()">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div id="job1" class="mdl-cell mdl-cell--10-col">
+                                    <span id="job-position" class="job-position">job position</span> <br>
+                                    <span id="company-name" class="company-name">company name</span> <span>-</span>
+                                    <span id="job-location" class="job-location">job location</span> <br>
+                                    <span id="salary" class="salary">salary</span> <br>
+                                    <span id="duration" class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-list__item job-list">
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <img class="img-avatar" src="../dist/img/mandisa.jpg" alt="">
+                                </div>
+                                <div class="mdl-cell mdl-cell--10-col">
+                                    <span class="job-position">job position</span>
+                                    <br>
+                                    <span class="company-name">company name</span>
+                                    <span>-</span>
+                                    <span class="job-location">job location</span>
+                                    <br>
+                                    <span class="salary">salary</span>
+                                    <br>
+                                    <span class="duration">duration range</span>
+                                    </span>
+                                </div>
+                                <div class="mdl-cell mdl-cell--1-col">
+                                    <a class="mdl-list__item-secondary-action" href="#">
+                                        <i class="material-icons">favorite</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+</section>
+
+
+
+<script src="../dist/js/jquery.min.js"></script>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".filter-dialog").hide();
+        $("#filter-search-btn").click(function(){
+            $(".filter-dialog").slideToggle("slow");
+        });
+    });
+</script>
+</body>
+
+</html>
