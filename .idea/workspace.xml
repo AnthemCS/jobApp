@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5489fda0-6c41-4878-aea8-4e688bc79acf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/layout/account.html" afterPath="$PROJECT_DIR$/account.html" />
-      <change beforePath="$PROJECT_DIR$/layout/changePassword.html" afterPath="$PROJECT_DIR$/changePassword.html" />
-      <change beforePath="$PROJECT_DIR$/layout/clogin.html" afterPath="$PROJECT_DIR$/clogin.html" />
-      <change beforePath="$PROJECT_DIR$/layout/csignup.html" afterPath="$PROJECT_DIR$/csignup.html" />
-      <change beforePath="$PROJECT_DIR$/layout/drawer.html" afterPath="$PROJECT_DIR$/drawer.html" />
-      <change beforePath="$PROJECT_DIR$/layout/editAccount.html" afterPath="$PROJECT_DIR$/editAccount.html" />
-      <change beforePath="$PROJECT_DIR$/layout/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change beforePath="$PROJECT_DIR$/layout/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/layout/jobDetails.html" afterPath="$PROJECT_DIR$/jobDetails.html" />
-      <change beforePath="$PROJECT_DIR$/layout/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change beforePath="$PROJECT_DIR$/layout/notification.html" afterPath="$PROJECT_DIR$/notification.html" />
-      <change beforePath="$PROJECT_DIR$/layout/search.html" afterPath="$PROJECT_DIR$/search.html" />
-      <change beforePath="$PROJECT_DIR$/layout/settings.html" afterPath="$PROJECT_DIR$/settings.html" />
-      <change beforePath="$PROJECT_DIR$/layout/signup.html" afterPath="$PROJECT_DIR$/signup.html" />
-    </list>
+    <list default="true" id="5489fda0-6c41-4878-aea8-4e688bc79acf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3224">
+            <state relative-caret-position="1519">
               <caret line="149" column="57" lean-forward="false" selection-start-line="149" selection-start-column="57" selection-end-line="149" selection-end-column="57" />
               <folding />
             </state>
@@ -73,13 +58,13 @@
         <entry file="file://$PROJECT_DIR$/clogin.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
@@ -331,12 +316,12 @@
       <workItem from="1519108488824" duration="790000" />
       <workItem from="1519135452528" duration="13848000" />
       <workItem from="1519239363856" duration="1283000" />
-      <workItem from="1519242748070" duration="2439000" />
+      <workItem from="1519242748070" duration="2548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104942000" />
+    <option name="totallyTimeSpent" value="105051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -707,14 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3224">
-          <caret line="149" column="57" lean-forward="false" selection-start-line="149" selection-start-column="57" selection-end-line="149" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/changePassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -742,7 +719,7 @@
     <entry file="file://$PROJECT_DIR$/clogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -759,6 +736,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1519">
+          <caret line="149" column="57" lean-forward="false" selection-start-line="149" selection-start-column="57" selection-end-line="149" selection-end-column="57" />
           <folding />
         </state>
       </provider>
