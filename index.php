@@ -58,7 +58,7 @@
                     </div>
                     
                     
-                    <a href="login.html" class="btn btn-large btn-block btn-bottom">Get Started</a>
+                    <a href="layout/login.html" class="btn btn-large btn-block btn-bottom">Get Started</a>
                     
                     
                 </div>
