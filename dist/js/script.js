@@ -1,9 +1,9 @@
 $(document).ready( function () {
-    // if($(window).width() < 1200){
-    //     window.location = "";
-    // }
+    if($(window).width() > 1050){
+        window.location = "screenSize.html";
+    }
 });
 
-var $ = require('jquery');
-var jsonDB = require('./jsonDB');
+// var $ = require('jquery');
+// var jsonDB = require('./jsonDB');
 

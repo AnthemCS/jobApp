@@ -594,3 +594,38 @@ body{
 .mdl-slider.is-upgraded{
     color: #254377 !important;
 }
+/*Screen Size Stylesheet*/
+.size-center{
+    width: 300px;
+    height: 300px;
+}
+.size-title{
+    font-family: 'Changa One';
+    font-size: 35px;
+    font-weight: 400;
+    color: #254377;
+    text-align: center;
+    margin-top: 50px;
+}
+.size-subtitle{
+    font-family: 'Mukta Mahee';
+    font-size: 18px;
+    font-weight: 400;
+    color: #8c8c8c;
+    text-align: center;
+    margin: 20px 0;
+}
+.btn-default{
+    font-size: 18px;
+    font-weight: 400;
+    /*width: 100%;*/
+    color: #ffffff;
+    background-color: #ffc92a;
+    border: none;
+    border-radius: 30px;
+}
+.btn-default:hover{
+    color: #ffffff;
+    background-color: #254377;
+    font-weight: 400;
+}
