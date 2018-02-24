@@ -629,3 +629,16 @@ body{
     background-color: #254377;
     font-weight: 400;
 }
+/*Offline connection stylesheet*/
+.primary-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    color: #254377;
+    text-align: center;
+}
+.btn-offline{
+    color: #ffc92a;
+    background-color: transparent;
+    border: 2px solid #ffc92a;
+    border-radius: 0px;
+}
