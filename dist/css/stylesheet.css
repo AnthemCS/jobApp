@@ -10,6 +10,10 @@ body{
 @media only screen and (max-width: 900px){
 
 }
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
 .container-m5{
     width: 90%;
     margin: 0 5%;
