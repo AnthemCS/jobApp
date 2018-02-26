@@ -65,6 +65,7 @@ body{
     /*border: .5px solid #f3f3f3;*/
     margin: 0px 5px 5px 5px;
      border-bottom: 1px solid #ccc;
+    padding: 0px !important;
     /*box-shadow: 0 2px 2px 0 #c8c8c8,*/
     /*0 6px 5px 0 #c8c8c8;*/
 }
@@ -133,6 +134,7 @@ body{
     margin-left: 20px;
 }
 .drawer-link{
+    font-weight: 400;
     color: #254377;
     text-transform: capitalize;
     text-decoration: none;
@@ -532,8 +534,14 @@ body{
     box-shadow: none;
     margin-bottom: 0; 
 }
+.mmdl-container{
+    padding: 0px 10px;
+}
 .mdl-switch.is-checked .mdl-switch__thumb{
     background-color: #254377;
+}
+.mdl-switch.is-upgraded{
+    padding-left: 50px !important;
 }
 .setting-list > a{
     color: #2d2d2d;
