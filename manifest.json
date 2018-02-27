@@ -1,8 +1,13 @@
 {
-  "short_name" : "Jobhaven",
+  "version" : "0.0.1 beta",
+  "short_name" : "JobHaven",
   "name" : "JobHaven",
-  "start_url" : "index.html",
+  "start_url" : "login.html",
   "display" : "standalone",
   "orientation" : "portrait",
-  "background_color" : "#ffffff"
+  "background_color" : "#ffffff",
+  "description" : "jobHaven app is the app that..",
+  "icons" : { "16" : "dist/img/jobhaven-logo2.png",
+              "48" : "dist/img/jobhaven-logo2.png",
+              "128" : "dist/img/jobhaven-logo2.png"}
 }

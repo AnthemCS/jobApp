@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="dist/css/stylesheet.css">
+<<<<<<< HEAD:home.html
+=======
+    <link rel="stylesheet" href="dist/css/material.min.css">
+>>>>>>> Given:home.html
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
@@ -30,7 +34,7 @@
             <header class="mdl-layout__header">
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
-                    <span class="mdl-layout-title">Title</span>
+                    <span class="mdl-layout-title">JobHaven</span>
                     <div class="mdl-layout-spacer"></div>
                 </div>
 
@@ -92,36 +96,6 @@
             <main class="mdl-layout__content">
                 <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
                     <div class="page-content">
-                        <!--<form action="#">-->
-                            <!--<div class="container-m5">-->
-                                <!--<div class="row">-->
-                                    <!--<div class="col-xs-10">-->
-                                        <!--&lt;!&ndash; Simple Textfield &ndash;&gt;-->
-                                        <!--<form action="#">-->
-                                            <!--<div class="mdl-textfield mdl-js-textfield">-->
-                                                <!--<input class="mdl-textfield__input" type="text" id="sample1">-->
-                                                <!--<label class="mdl-textfield__label" for="sample1">-->
-                                                    <!--Search-->
-                                                <!--</label>-->
-                                            <!--</div>-->
-                                        <!--</form>-->
-                                    <!--</div>-->
-                                    <!--<div class="col-xs-2">-->
-                                        <!--&lt;!&ndash; Raised button with ripple &ndash;&gt;-->
-                                        <!--<button class="mdl-button mdl-js-button mdl-js-ripple-effect collapsible-heade filter-btn">-->
-                                            <!--<i class="material-icons">filter_list</i>-->
-                                        <!--</button>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</form>-->
-                        <!--<ul class="collapsible" data-collapsible="accordion">-->
-                            <!--<li>-->
-                                <!--&lt;!&ndash;<div class="collapsible-header">&ndash;&gt;-->
-                                <!--&lt;!&ndash;</div>&ndash;&gt;-->
-                                <!--<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>-->
-                            <!--</li>-->
-                        <!--</ul>-->
 
                         <div class="demo-list-action mdl-list">
                             <div class="mdl-list__item job-list" onclick="viewJob()">
@@ -198,7 +172,7 @@
                 <section class="mdl-layout__tab-panel" id="fixed-tab-3">
                     <div class="page-content">
                         <div class="demo-list-action mdl-list">
-                            <span class="small-title">today</span>
+                            <span class="small-title title-divider">today</span>
                             <div class="mdl-list__item job-list">
                                 <div class="mdl-cell mdl-cell--1-col">
                                     <img class="img-avatar" src="dist/img/mandisa.jpg" alt="">
@@ -274,10 +248,10 @@
                 $(this).addClass("mdl-button mdl-js-button mdl-js-ripple-effect");
             });
 
-            // if($(window).width() > 400){
+            if($(window).width() > 1050){
 
-            //     window.location = "clogin.html"
-            // }
+                window.location = "screenSize.html"
+            }
             // $('.collapsible').collapsible();
             // $('.filter-btn').click( function () {
             //     $(this).addClass("collapsible");
