@@ -10,6 +10,9 @@ body{
 @media only screen and (max-width: 900px){
 
 }
+.drawer-avatar{
+    border: 2px solid #ffc92a;
+}
 .row{
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -41,10 +44,10 @@ body{
     background-color: #254477;
 }
 .mdl-layout__header .mdl-layout__drawer-button {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
-    background-color: #ffc92a;
+    background-color: #ffc92a !important;
 }
 .mdl-layout__tab {
     background-color: #254477;
@@ -68,6 +71,10 @@ body{
     padding: 0px !important;
     /*box-shadow: 0 2px 2px 0 #c8c8c8,*/
     /*0 6px 5px 0 #c8c8c8;*/
+}
+.title-divider{
+    padding-left: 10px;
+    color: #8c8c8c !important;
 }
 .img-avatar{
     width: 50px;
@@ -108,7 +115,7 @@ body{
     text-transform: uppercase;
     border-radius: 0px;
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     right: 0px;
     background-color: #254377;
@@ -119,7 +126,7 @@ body{
 
 /* Side bar stylesheet */
 .mdl-layout__drawer{
-    background-image: url("background-drawer.png");
+    background-image: url("background-drawer.png") !important;
 }
 .drawer-avatar{
     width: 70px;
@@ -558,6 +565,9 @@ body{
     color: #254377;
 }
 /*Search Stylesheet*/
+.pl-0{
+    padding-left: 0px !important;
+}
 .search-bar{
     background-color: #ffffff !important;
 }
