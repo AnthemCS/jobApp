@@ -156,7 +156,7 @@ body{
 }
 .mdl-list__item-icon,
 .mdl-list__item-icon.material-icons{
-    color: #254377;
+    color: #254377 !important;
 }
 .mdl-account-icon{
     font-size: 20px !important;
