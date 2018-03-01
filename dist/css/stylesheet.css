@@ -31,6 +31,10 @@ body{
     width: 96% !important;
     margin: 0 2%;
 }
+.mdl-button--fab{
+    right: 10px;
+    bottom: 10px;
+}
 .btn-floating{
     background-color: #254377 !important;
 }
@@ -78,6 +82,18 @@ body{
 .title-divider{
     padding-left: 10px;
     color: #8c8c8c !important;
+}
+.job-list{
+    padding: 10px 0px !important;
+}
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+.ripple:active {
+    background-color: #c8c8c8;
+    background-size: 100%;
+    transition: background 0s;
 }
 .img-avatar{
     width: 50px;
