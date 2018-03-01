@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto';
 }
+.animated{
+    animation-duration: 0.15s !important;
+}
 .primary-color{
     color: #254377;
 }
