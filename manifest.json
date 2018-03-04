@@ -7,7 +7,29 @@
   "orientation" : "portrait",
   "background_color" : "#ffffff",
   "description" : "jobHaven app is the app that..",
-  "icons" : { "16" : "dist/img/jobhaven-logo2.png",
-              "48" : "dist/img/jobhaven-logo2.png",
-              "128" : "dist/img/jobhaven-logo2.png"}
+  "icons": [{
+    "src": "dist/img/jobhaven_logo.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "dist/img/jobhaven_logo.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "dist/img/jobhaven_logo.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "dist/img/jobhaven_logo.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "dist/img/jobhaven_logo.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "dist/img/jobhaven_logo.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
 }
